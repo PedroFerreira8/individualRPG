@@ -1,0 +1,109 @@
+/* Imagem de fundo */
+.main-container{
+  background-image: url('../../assets/fundo_login.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.registo{
+  width: 17vw;
+  height: 60vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+  position: fixed;
+  border: none;
+  z-index: 999;
+  margin-top: 40px;
+  color: rgb(163, 206, 62);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  color: rgb(163, 206, 62);
+  margin-top: 150px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+}
+label[type="username"]{
+  text-align: center;
+  margin: 8px;
+  color: rgb(163, 206, 62);
+}
+label[type="password"]{
+  text-align: center;
+  margin: 10px;
+  color: rgb(163, 206, 62);
+}
+.characters{
+  margin: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 6px;
+  margin-top: 30px;
+  color: rgb(163, 206, 62);
+  background-color:rgba(0, 0, 0, 0.575) ;
+}
+input{
+  border: 1px solid rgb(199, 199, 199);
+  padding: 10px;
+  font-size:17px;
+  background-color:rgb(40, 73, 18);
+  color: aliceblue;
+  text-align: center;
+}
+label{
+  font-weight:bold;
+  margin: 10px;
+  margin-top: 30px
+}
+
+/* imagem das personagens */
+.img{
+  width: 150px;
+  height:140px;
+  position: relative;
+  justify-content:center;
+  margin-left: 48px;
+  display: flex;
+  border:2px solid rgb(40, 73, 18);
+}
+
+/* botão de criar utilizador */
+.criaruser{
+  margin:10px;
+  border-radius: 6px;
+}
+
+.criaruser:hover{
+  color: rgb(26, 218, 35);
+  background-color: rgb(40, 73, 18);
+  border:2px solid rgb(127, 197, 81);
+}
+
+/* botão de inicio */
+.inicio{
+  margin:10px;
+  border-radius: 6px;
+  width: 180px;
+}
+
+.inicio:hover{
+  color: rgb(26, 218, 35);
+  background-color: rgb(40, 73, 18);
+  border:2px solid rgb(127, 197, 81);
+}
+
+
+

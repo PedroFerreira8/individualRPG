@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.main-container{
+  background-image: url('../../assets/fundo_landing.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+  .title{
+  font-family: 'Permanent Marker';
+  font-style: bold;
+  font-size: 90px;
+  color: rgb(163, 206, 62);
+  margin-top: 120px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #5cea63;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+/* botão de login */
+.registar{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 80px;
+  margin-left: 20px;
+}
+/* botão de registar */
+.login{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 180px;
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+}
+
+/* animações dos botões */
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.884);
+  font-weight: bold;
+  border: 4px solid rgb(0, 0, 0);
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #35df0b;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}

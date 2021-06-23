@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  color: black;
+  border: none;
+}
+
+.main-container{
+  background-image: url('../../assets/fundo_login.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.title{
+  font-family: 'Permanent Marker';
+  font-size: 60px;
+  color: rgb(163, 206, 62);
+  margin-top: 120px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+a{
+  font-size: .8rem;
+}
+a:hover {
+  color: rgb(21, 228, 83);
+}
+
+#login-cointaner {
+  background-color: rgb(240, 240, 240);
+  width: 400px;
+  padding: 20px;
+  border: 2px solid aqua;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 200px auto;
+  position:absolute;
+	left:50%;
+	top:50%;
+}
+
+form{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 240px;
+  margin-left: -210px;
+}
+label,input {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+}
+input{
+  border: 1px solid rgb(199, 199, 199);
+  padding: 10px;
+  font-size:17px;
+  background-color:rgb(40, 73, 18);
+  color: aliceblue;
+}
+input[type="submit"]{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: rgb(199, 199, 199);
+  background-color:rgba(9, 82, 13, 0.575) ;
+}
+input[type="submit"]:hover{
+  color: rgb(26, 218, 35);
+  background-color: rgb(40, 73, 18);
+  border:2px solid rgb(127, 197, 81);
+}
+label[type="username"]{
+  text-align: center;
+  margin: 8px;
+  color: rgb(163, 206, 62);
+}
+label[type="password"]{
+  text-align: center;
+  margin: 8px;
+  color: rgb(163, 206, 62);
+}

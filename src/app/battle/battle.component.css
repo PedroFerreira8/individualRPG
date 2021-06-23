@@ -1,0 +1,195 @@
+/* imagem de fundo */
+.main-container{
+  background-image: url('../../assets/fundo_battle.jpg');
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.playerContainer{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* caixa com os 2 jogadores */
+.player1{
+  width: 25%;
+  height: 50%;
+  border:3px solid rgba(9, 124, 9, 0.842);
+  width: 350px;
+  height:320px;
+  position: relative;
+  justify-content:center;
+  display: flex;
+  border:3px solid rgba(9, 124, 9, 0.842);
+}
+
+.player2{
+  width: 25%;
+  height: 50%;
+  border:3px solid rgba(9, 124, 9, 0.842);
+  width: 350px;
+  height:320px;
+  position: relative;
+  justify-content:center;
+  display: flex;
+  border:3px solid rgba(9, 124, 9, 0.842);
+}
+/* botão jogar */
+.jogar {
+  transition-duration: 0.4s;
+  width: 150px;
+  height:60px;
+  border-radius: 5px;
+  font-family: cursive;
+  background-color: #f6ff00;
+  border:2px solid rgba(3, 53, 3, 0.842);
+  justify-content: center;
+  margin-left: 620px;
+  color: rgb(8, 44, 1);
+  font-weight: bold;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sair{
+  width: 80px;
+  height:40px;
+  border-radius: 5px;
+  font-family: cursive;
+  background-color: #f6ff00;
+  margin-left: 1280px;
+  border:2px solid rgba(3, 53, 3, 0.842);
+}
+.jogar:hover{
+  color:#f6ff00;
+  background-color: rgb(8, 44, 1);;
+}
+.sair:hover{
+  color:#f6ff00;
+  background-color: rgb(8, 44, 1);;
+}
+
+/* imagem jogadores */
+.img{
+  width: 150px;
+  height:140px;
+  position: relative;
+  justify-content:center;
+  margin-left: 48px;
+  display: flex;
+  border:2px solid rgb(40, 73, 18);
+  padding: 0;
+}
+/* nome jogadores */
+.oponente{
+  color: rgb(120, 226, 48);
+  font-size: 18px;
+  margin: 4px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.jogador{
+  color: rgb(120, 226, 48);
+  font-size: 18px;
+  margin: 4px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.atk{
+  height:10px;
+  width: 10px;
+}
+.lp{
+  height: 10px;
+  width: 10px;
+}
+li{
+  list-style-type: none;
+  display:inline-block;
+}
+a img{
+    width: 5%;
+    height: auto;
+    margin: 4px;
+}
+.lp{
+  fill:rgb(120, 226, 48);
+  width: 5%;
+  height: auto;
+  left: 0;
+}
+.stats{
+  position: fixed;
+  left: 0;
+  color:rgb(120, 226, 48);
+}
+ul{
+  display: flex;
+  flex-direction: column;
+}
+.images{
+  width: 5%;
+  height: auto;
+  margin: 2px;
+  fill:rgb(120, 226, 48);
+}
+
+/* vencedor da battle */
+
+.vencedor{
+  position: absolute;
+  visibility: hidden;
+  left: 15%;
+}
+.victory{
+  visibility: hidden;
+  position: absolute;
+  left: 100px;
+  width: 80vw;
+  height: 60vh;
+  transform: translate(-50%,-3%);
+  margin-left: 400px;
+  text-align: center;
+  justify-content: center;
+}
+#vencedortxt{
+  visibility: hidden;
+  color:#f6ff00;
+  font-size: 24px;
+  margin-left: 80px;
+  left: 20px;
+  margin-top: -5%;
+  font-weight: bold;
+  font-family: cursive;
+}
+#jogarnovamente{
+  visibility: hidden;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 120px;
+  height:50px;
+  border-radius: 8px;
+  background-color: #f6ff00;
+  border:2px solid rgba(3, 53, 3, 0.842);
+  justify-content: center;
+  margin-left: 720px;
+  margin-top: 400px;
+}
+#jogarnovamente:hover{
+  color:#f6ff00;
+  background-color: rgba(3, 53, 3, 0.842);
+}
+
+
+
+
+
+

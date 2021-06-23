@@ -1,0 +1,15 @@
+<div class="main-container">
+  <h1 class="title">LOGIN</h1>
+<div id="login-container">
+    <form action="">
+      <label type="username">Username</label>
+      <input #username type="text" name="username" id="username" placeholder="Insira o username">
+      <p></p>
+      <label type="password">Password</label>
+      <input #password type="password" name="password" id="password" placeholder="Insira a password">
+      <p></p>
+      <input (click)="SendData(username.value,password.value)" type="submit" value="LOGIN">
+      <input [routerLink]="['/*']"  routerLinkActive="active" type="submit" value="INÍCIO">
+    </form>
+  </div>
+</div>
